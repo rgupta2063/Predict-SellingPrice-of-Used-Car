@@ -3,6 +3,7 @@
 # Dataset:
 Craigslist UsedCars Data
 Data Set was found here: https://www.kaggle.com/austinreese/craigslist-carstrucks-data 
+
 Download "vehicles.csv" file from this link.
 
 # Description
@@ -14,8 +15,8 @@ In this Project we are using different Supervised Regression Models to predict t
 
 # Observations
 In the original data when we performed EDA we found there are few columns which are not contributing towards price prediction so we dropped them. There is also significant amount of Missing values in few columns, we approached the problem in two ways
-- Dropped all the missing values from the data.
-- Filled the missing data in categorical columns with ‘Unknown’ category and numerical columns with mean values.
+* Dropped all the missing values from the data.
+* Filled the missing data in categorical columns with ‘Unknown’ category and numerical columns with mean values.
 
-#Libraries Used: Scikit Learn, Pyspark ML , plotly
+# Libraries Used: Scikit Learn, Pyspark ML , plotly
 Plotly Installation pip command: pip install plotly==4.7.1
